@@ -9,7 +9,7 @@ from typing import Callable, Optional
 from aiohttp import web
 
 PORT = 8080
-BROADCAST_ADDR = "255.255.255.255"
+BROADCAST_ADDR = "192.168.31.255"
 
 
 def _get_local_ip() -> str:
